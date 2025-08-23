@@ -42,4 +42,4 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: Mocha-Test-Result-${{ matrix.operation_system }}-Node-${{ matrix.nodejs_version }}
-          path: test-results-${{ matrix.operation_system }}-node-${{ matrix.nodejs_version }}.xml
+          path: test-results.xml
